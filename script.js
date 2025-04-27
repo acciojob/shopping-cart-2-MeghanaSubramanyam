@@ -32,7 +32,8 @@ function addItem() {
 
     // Update grand total
     grandTotal += itemPrice;
-    document.querySelector("[data-ns-test='grandTotal']").innerText = grandTotal.toFixed(2);
+    // document.querySelector("[data-ns-test='grandTotal']").innerText = grandTotal.toFixed(2);
+	document.querySelector("[data-ns-test='grandTotal']").innerText = grandTotal.toFixed(2);
 
     // Clear input fields
     nameInput.value = "";
